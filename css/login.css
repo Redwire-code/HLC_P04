@@ -1,93 +1,113 @@
-* Made with love by Mutiullah Samim*/
+/* Made by Antonio Carrasco*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
-body{
 
 
+body, html{
     height: 100%;
     font-family: 'Numans', sans-serif;
+    
+    
 }
 
-section,html{
-    background: #3f3f3f !important;
+.bg-image {
+    background-image: url("../assets/img/background.png");
+    filter: blur(8px);
+    height: 100%; 
+    width: 100%;
 }
 
 .container{
+    top: 30% !important;
+    left: 50% !important;
+    position: absolute !important;
+    margin-top: 10% !important;
+    align-content: center !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+}
 
-margin-top: 10%;
-align-content: center;
+
+.card-header > h3{
+    text-align: left;
 }
 
 .card{
-height: 370px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+    height: 370px !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    width: 400px !important;
+    background-color: rgba(0,0,0,0.7) !important ;
 }
 
+
 .social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #ee4b4b;
+    font-size: 60px !important;
+    margin-left: 10px !important;
+    color: #ee4b4b !important;
 }
 
 .social_icon span:hover{
-color: white;
-cursor: pointer;
+    color: white !important;
+    cursor: pointer !important;
 }
 
 .card-header h3{
-color: white;
+    color: white !important;
 }
 
 .social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
+    position: absolute !important;
+    right: 20px !important;
+    top: -45px !important;
 }
 
 .input-group-prepend span{
-width: 50px;
-background-color: #ee4b4b;
-color: black;
-border:0 !important;
+    width: 50px !important;
+    background-color: #ee4b4b !important;
+    color: black !important;
+    border:0  !important;
 }
 
 input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
+    outline: 0 0 0 0   !important;
+    box-shadow: 0 0 0 0  !important;
 }
 
 .remember{
-color: white;
+color: white !important;
 }
 
 .remember input
 {
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
+width: 20px !important;
+height: 20px !important;
+margin-left: 15px !important;
+margin-right: 5px !important;
 }
 
 .login_btn{
-color: black;
-background-color: #ee4b4b;
-width: 100px;
+color: black !important;
+background-color: #ee4b4b !important;
+width: 100px !important;
 }
 
 .login_btn:hover{
-color: black;
-background-color: white;
+color: black !important;
+background-color: white !important;
 }
 
 .links{
-color: white;
+color: white !important;
 }
 
 .links a{
-margin-left: 4px;
+margin-left: 4px !important;
+}
+
+
+img{
+    width: 80% !important;
+    margin-left: -3px !important;
 }
